@@ -1,6 +1,6 @@
 {
   "name": "@hexly/graphql-nats-streaming-subscriptions",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "GraphQL subscriptions over NATS Streaming",
   "author": "Hexly",
   "repository": "helxy/graphql-nats-streaming-subscriptions",
@@ -10,7 +10,7 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build",
     "incver": "npm version patch -m ':package: release %s'",
-    "bump": "npm run incver && git push --follow-tags && npm publish"
+    "bump": "npm run incver && git push --follow-tags && npm publish --access public"
   },
   "dependencies": {
     "graphql-subscriptions": "^1.0.0",
