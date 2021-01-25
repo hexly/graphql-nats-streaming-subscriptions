@@ -1,9 +1,9 @@
 {
   "name": "@hexly/graphql-nats-streaming-subscriptions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "GraphQL subscriptions over NATS Streaming",
   "author": "Hexly",
-  "repository": "helxy/graphql-nats-streaming-subscriptions",
+  "repository": "hexly/graphql-nats-streaming-subscriptions",
   "main": "lib/index.js",
   "scripts": {
     "watch": "tsc -w",
